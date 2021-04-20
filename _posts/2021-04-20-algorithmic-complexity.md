@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Services vs Pure Objects"
-tags: [Arquitecturas, Architecture, Clean Code, Código Limpio, DDD, Domain Driven Design]
+title: "Algorithmic Complexity"
+tags: [Algorithmic, Complexity, Big-O]
 ---
 
 # Algorithmic Complexity With Big-O, Big-θ, Big-Ω
