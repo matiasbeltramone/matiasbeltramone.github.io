@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Algorithmic Complexity"
+title: "Algorithmic Complexity With Big-O, Big-θ, Big-Ω"
 tags: [Algorithmic, Complexity, Big-O]
 ---
-
-# Algorithmic Complexity With Big-O, Big-θ, Big-Ω
 
 Cada algoritmo o conjunto de instrucciones requiere un tiempo y espacio para ejecutarse, por lo que cuando creamos algoritmos para resolver nuestros problemas técnicos debemos examinar la *complejidad temporal y espacial* de la ejecución.
 
