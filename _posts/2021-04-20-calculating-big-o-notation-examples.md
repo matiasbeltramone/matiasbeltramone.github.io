@@ -4,7 +4,7 @@ title: "Calculating Complex Big-O Notation"
 tags: [Algorithmic, Complexity, Big-O]
 ---
 
-Ahora que tenemos una comprensión básica de la notación `Big-O` ([Algorithmic Complexity](https://github.com/matiasbeltramone/object-oriented-design/blob/master/algorithmic-complexity.md)), podemos comenzar a buscar cálculos más costosos.
+Ahora que tenemos una comprensión básica de la notación `Big-O` ([Algorithmic Complexity](https://matiasbeltramone.github.io/algorithmic-complexity/)), podemos comenzar a buscar cálculos más costosos.
 Supongamos que se le pide que ordene una matriz de números enteros de menor a mayor valor. El método de **fuerza bruta** sería comparar cada elemento
 de la matriz con cualquier otro elemento. Este algoritmo se conoce como `Bubble Sort` y es conocido por su **espantoso rendimiento**.
 
