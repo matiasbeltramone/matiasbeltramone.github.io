@@ -4,8 +4,6 @@ title: "Guía de objetos DDD"
 tags: [Arquitecturas, Architecture, Clean Code, Código Limpio, DDD, Domain Driven Design]
 ---
 
-## Introducción
-
 No todos los objetos de nuestra aplicación se van a ver parecidos. Algunos objetos tendrán muchos métodos de consultas, algunos tendrán solo metodos de estilo comando.
 Algunos tendrán un mix de ambos, pero con un determinado ratio de ellos. Podrás encontrarte con que diferentes tipos de objetos amenudo comparten ciertas caracteristicas,
 que resultan en patrones reconocidos en la industria. Por ejemplo, los desarrolladores suelen hablar de "entities", "value objects", "application services", "controllers"
