@@ -4,8 +4,6 @@ title: "POO Lección 7: Principios de Diseño de Software"
 tags: [POO, OOP, Programación Orientada a Objetos, Object Oriented Programming, Software Design Principles]
 ---
 
-### Caracteristicas del buen diseño de software
-
 Más adelante veremos los patrones más actuales, diferentes conceptos de diseños de arquitectura, pero antes vamos a discutir
 el proceso de la **arquitectura del diseño de software** es decir: cosas a las que debemos apuntar y cosas que sería mejor evitar.
 
