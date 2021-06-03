@@ -4,8 +4,6 @@ title: "Introducción a la Programación: Lección 2"
 tags: [Introducción a Programación]
 ---
 
-### Conceptos Básicos
-
 En base a lo visto en la lección anterior, debemos aclarar algunos conceptos que hemos mencionado para que luego podamos entender todos los conceptos
 más avanzados comencemos...
 
