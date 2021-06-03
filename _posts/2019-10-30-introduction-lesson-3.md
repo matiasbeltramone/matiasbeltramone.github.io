@@ -4,10 +4,6 @@ title: "Introducción a la Programación: Lección 3"
 tags: [Introducción a Programación]
 ---
 
-### Conceptos Básicos: Parte II
-
-### Comentarios de código
-
 El empleado de la tienda telefónica podría anotar algunas notas sobre las características de un
 teléfono recién lanzado o sobre los nuevos planes que su compañía ofrece. Estas notas son sólo
 para el empleado, no son para que los clientes las lean. Sin embargo, estas notas ayudan al
