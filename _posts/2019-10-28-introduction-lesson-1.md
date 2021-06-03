@@ -4,8 +4,6 @@ title: "Introducción a la Programación: Lección 1"
 tags: [Introducción a Programación]
 ---
 
-### Introducción
-
 Los estudiantes que toman mis clases a menudo han tratado de enseñarse a sí mismos materias como HTML o JavaScript leyendo entradas
 en blogs o copiando y pegando código, pero no han sido capaces de dominar realmente el material
 que les permitirá codificar el resultado deseado. Y debido a que no comprenden realmente los
