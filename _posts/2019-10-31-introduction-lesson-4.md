@@ -4,10 +4,6 @@ title: "Introducción a la Programación: Lección 4"
 tags: [Introducción a Programación]
 ---
 
-### Conceptos Básicos: Parte III
-
-### Condicionales
-
 "¿Quieres añadir en la pantalla protectores extra a tu compra, por $9.99?"
 
 El empleado de la tienda telefónica le ha pedido que tome una decisión. Y es posible que necesite consultar primero el
