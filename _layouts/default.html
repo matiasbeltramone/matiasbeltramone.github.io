@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href='https://matiasbeltramone.github.io/feed.xml' rel='alternate' type='application/atom+xml'>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel='icon' sizes='16x16' type='image/ico' href='https://user-images.githubusercontent.com/22304957/80644516-24503e00-8a40-11ea-905c-81b7b5f0e72a.png'>
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+          
+          <p align="center">
+          <a href="https://validator.w3.org/feed/check.cgi?url=https%3A//matiasbeltramone.github.io/feed.xml"><img src="https://user-images.githubusercontent.com/22304957/80654037-cf1d2800-8a51-11ea-90ab-b34dc72d3a4c.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+          </p>
+        </footer>
+      </div>
+    </div>
+    
+    {% include analytics.html %}
+  </body>
+</html>
