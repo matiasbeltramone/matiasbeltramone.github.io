@@ -9,7 +9,7 @@ name: Beltramone Matías
 description: Backend Developer (https://cafecito.app/matibeltramone)
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://user-images.githubusercontent.com/22304957/80640774-48a91c00-8a3a-11ea-98bf-14a852c1c1c1.jpg
+avatar: https://avatars.githubusercontent.com/u/22304957?v=4
 #
 # Flags below are optional
 #
@@ -24,9 +24,9 @@ footer-links:
   email: mgbeltramone@gmail.com
   facebook:
   flickr:
-  github: matiasbeltramone/
+  github: matiasbeltramone
   instagram: matibeltramone_
-  linkedin: mat%C3%ADas-beltramone-659a63b4/
+  linkedin: mgbeltramone
   pinterest:
   rss: https://matiasbeltramone.github.io/feed.xml
   twitter:
@@ -84,7 +84,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-favicon
-  
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
