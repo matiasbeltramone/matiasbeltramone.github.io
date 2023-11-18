@@ -6,7 +6,7 @@
 name: Beltramone Matías
 
 # Short bio or description (displayed in the header)
-description: Backend Developer (https://cafecito.app/matibeltramone)
+description: Backend Developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars.githubusercontent.com/u/22304957?v=4
@@ -25,7 +25,7 @@ footer-links:
   facebook:
   flickr:
   github: matiasbeltramone
-  instagram: matibeltramone_
+  instagram:
   linkedin: mgbeltramone
   pinterest:
   rss: https://matiasbeltramone.github.io/feed.xml
