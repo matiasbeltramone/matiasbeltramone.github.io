@@ -36,17 +36,17 @@ const electronicPayment = new ElectronicPayment();
 await electronicPayment.prepare(gateway);
 ```
 
-En este ejemplo, ElectronicPayment puede aceptar cualquier subtipo de Gateway, como PaypalGateway o StripeGateway. Cada uno de estos tipos de gateway puede tener
-su propia implementación del método pay, demostrando polimorfismo en acción.
-
 Dado que una instancia de `Gateway` podría haberse configurado de una manera diferente según el caso, o dicho de otra manera
-tienen un estado interno diferente al de otra instancia de `Gateway` (ejemplo, que una sea Paypal, Stripe o Skrill...), cada instancia de `Gateway`
-podría en teoría comportarse de manera diferente al menos a nivel interno ya que a nivel de firma debería respetar lo que dice que hace, en nuestro caso seguramente varia que tipo de gateway estamos utilizando, es decir, podría ser **Paypal, Stripe, etc**
+tienen un estado interno diferente al de otra instancia de `Gateway` (ejemplo, que una sea Paypal, Stripe o Skrill como podemos observar en el ejemplo en el cuál mediante constructor cambiamos el estado de Gateway), cada instancia de `Gateway`
+podría en teoría comportarse de manera diferente al menos a nivel interno ya que a nivel de firma debería respetar lo que dice que hace, en nuestro caso seguramente varia que tipo de gateway estamos utilizando, es decir, podría ser **Paypal, Stripe, etc** lo cuál como vimos actualmente lo configurabamos mediante el constructor de esa clase.
 
-Las subclases pueden introducir aún más variación en el comportamiento. Ya hemos
+Pero además de lo visto anteriormente mediante estados, las subclases pueden introducir aún más variación en el comportamiento. Ya hemos
 analizado la herencia y cómo podemos usarla para cambiar el comportamiento de una clase principal anulando (parte de) su comportamiento en una subclase.
 Cualquier objeto que sea una instancia de una subclase de `Gateway` también cuenta como una instancia de `Gateway` en sí.
 Esto hace que cualquier instancia de esa subclase de `Gateway` también es un argumento válido para los parámetros de tipo `Gateway`.
+
+En este ejemplo, ElectronicPayment puede aceptar cualquier subtipo de Gateway, como podría ser un `PaypalGateway o StripeGateway`. Cada uno de estos tipos de gateway puede tener
+su propia implementación del método `pay()`, demostrando el polimorfismo en acción, ya que la clase cliente solo necesita que tenga un método `pay()` no le importa si el Gateway que lo procesa es Paypal o cualquier otro.
 
 - 📋 **Cualquier subclase del tipo Gateway será aceptado en prepare()**
 
