@@ -2,6 +2,7 @@
 layout: post
 title: "🧱 Programando con Objetos: Encapsulación"
 tags: [Paradigmas, POO, OOP, Orientación a Objetos, Object Oriented]
+image: https://github.com/matiasbeltramone/matiasbeltramone.github.io/assets/22304957/4d7caf66-7b33-4652-b4de-eb2490ee99f5
 ---
 
 Existe un principio fundamental pero a menudo malinterpretado: la encapsulación. Este concepto, más que un simple mecanismo técnico, es una filosofía de diseño que impregna cada línea de código que escribimos y cada objeto que creamos.
