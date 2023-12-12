@@ -18,15 +18,15 @@
     {% endif %}
 
     {% if page.image %}
-    <meta property="og:image" content="{{ page.image | "https://github-production-user-asset-6210df.s3.amazonaws.com/22304957/288028698-4d7caf66-7b33-4652-b4de-eb2490ee99f5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231212T230504Z&X-Amz-Expires=300&X-Amz-Signature=84d3312813b4caeb84ad12ad497cd96a9b2005448a4e283597497c196d1c4f46&X-Amz-SignedHeaders=host&actor_id=22304957&key_id=0&repo_id=131233786" }}" />
+    <meta property="og:image" content="{{ page.image | absolute_url }}" />
     {% else %}
-    <meta property="og:image" content="{{ '../images/background-code.png' | "https://github-production-user-asset-6210df.s3.amazonaws.com/22304957/288028698-4d7caf66-7b33-4652-b4de-eb2490ee99f5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231212T230504Z&X-Amz-Expires=300&X-Amz-Signature=84d3312813b4caeb84ad12ad497cd96a9b2005448a4e283597497c196d1c4f46&X-Amz-SignedHeaders=host&actor_id=22304957&key_id=0&repo_id=131233786" }}" />
+    <meta property="og:image" content="{{ '../images/background-code.png' | absolute_url }}" />
     {% endif %}
 
     {% if page.image %}
-    <meta property="twitter:image" content="{{ page.image | "https://github-production-user-asset-6210df.s3.amazonaws.com/22304957/288028698-4d7caf66-7b33-4652-b4de-eb2490ee99f5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231212T230504Z&X-Amz-Expires=300&X-Amz-Signature=84d3312813b4caeb84ad12ad497cd96a9b2005448a4e283597497c196d1c4f46&X-Amz-SignedHeaders=host&actor_id=22304957&key_id=0&repo_id=131233786" }}" />
+    <meta property="twitter:image" content="{{ page.image | absolute_url }}" />
     {% else %}
-    <meta property="twitter:image" content="{{ '../images/background-code.png' | "https://github-production-user-asset-6210df.s3.amazonaws.com/22304957/288028698-4d7caf66-7b33-4652-b4de-eb2490ee99f5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231212T230504Z&X-Amz-Expires=300&X-Amz-Signature=84d3312813b4caeb84ad12ad497cd96a9b2005448a4e283597497c196d1c4f46&X-Amz-SignedHeaders=host&actor_id=22304957&key_id=0&repo_id=131233786" }}" />
+    <meta property="twitter:image" content="{{ '../images/background-code.png' | absolute_url }}" />
     {% endif %}
 
     <meta name="twitter:card" content="summary_large_image">
