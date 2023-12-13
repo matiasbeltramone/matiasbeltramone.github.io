@@ -2,7 +2,6 @@
 layout: post
 title: "🧱 Programando con Objetos: Abstracción"
 tags: [Paradigmas, POO, OOP, Orientación a Objetos, Object Oriented]
-image: https://github.com/matiasbeltramone/matiasbeltramone.github.io/assets/22304957/4d7caf66-7b33-4652-b4de-eb2490ee99f5
 ---
 
 Bienvenidos a una nueva lección de nuestra serie sobre Programación Orientada a Objetos. En nuestra lección anterior, exploramos el concepto de encapsulamiento y cómo nos ayuda a ocultar la complejidad innecesaria,
