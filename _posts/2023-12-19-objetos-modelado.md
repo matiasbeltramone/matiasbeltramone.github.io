@@ -10,15 +10,13 @@ Bienvenidos a otra lección en nuestra serie sobre Programación Orientada a Obj
 
 Vivimos en un mundo en constante evolución, complejo, caótico y lleno de ruido. Sin embargo, la inteligencia humana consigue dar sentido a todo este caos en una búsqueda de la **elegancia** que se esconde detrás de la simetría a través de los **patrones** que identificamos en nuestra realidad.
 
-<p align="center"><img width="50%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/177c3eea-11a3-4274-a1da-4e49bb6a6a56"/></p>
-<p align="center"><img width="50%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/177c3eea-11a3-4274-a1da-4e49bb6a6a56?raw=true"/></p>
-<p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/22304957/285682574-dc2a6d92-fc6a-4466-a001-6578a3d0ffa1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231220T003815Z&X-Amz-Expires=300&X-Amz-Signature=041f08de139a1308b2a977fdb780bf7d9d5584033ae0ba826898b233d73aa802&X-Amz-SignedHeaders=host&actor_id=22304957&key_id=0&repo_id=584591436"/></p>
+<p align="center"><img width="50%" src="../images/modelado/modelado-2.png"/></p>
 
 ### 🗺️ Modelos en Nuestra Vida Diaria
 
 Un modelo es una **construcción conceptual simplificada** de una realidad más compleja. A través de esta reconstrucción somos capaces de entender mejor dicha realidad para lograr utilizarla a nuestro favor. Ejemplos cotidianos incluyen mapas, ecuaciones físicas y diagramas, como olvidar que nuestro querido Albert Einstein logro simplificar semejante teoría y conceptos muy complejos en la fórmula que podemos dilucidar debajo en la imagen (E=mc^2), claramente esto demuestra la elegancia y simplificación de una realidad mucho más compleja.
 
-<p align="center"><img width="50%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/dc2a6d92-fc6a-4466-a001-6578a3d0ffa1"/></p>
+<p align="center"><img width="50%" src="../images/modelado/modelado-1.png"/></p>
 
 ### 📐 Aplicación de Modelos en POO
 
@@ -28,7 +26,7 @@ En la Programación Orientada a Objetos, el modelado implica seleccionar y repre
 
 - **En un juego de carreras**: Un `Auto` se modelaría con atributos como `velocidad`, `aceleración`, y métodos como `acelerar()` `frenar()` o `girar()`, bueno hasta podría ser `usarNitro()` 😇.
 
-<p align="center"><img width="50%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/12132e09-cba1-44bb-8d1b-26e8aa45a757"/></p>
+<p align="center"><img width="50%" src="../images/modelado/modelado-3.png"/></p>
 
 - **En un sistema de gestión de concesionario de coches**: Aquí, el mismo `Auto` podría tener atributos como `precio`, `modelo`, `color`, y métodos como `vender()` o `presentarInformación()`.
 
@@ -36,7 +34,7 @@ En la Programación Orientada a Objetos, el modelado implica seleccionar y repre
 
 Desde partituras musicales hasta diagramas complejos, estos son ejemplos de cómo representamos y simplificamos la información para hacerla manejable y útil.
 
-<p align="center"><img width="50%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/703644bf-e230-4b8c-a0c8-cfc8795a83b0"/></p>
+<p align="center"><img width="50%" src="../images/modelado/modelado-4.png"/></p>
 
 ### 🐦 Modelando la Naturaleza: Un Ejercicio Práctico
 
