@@ -11,6 +11,8 @@ Bienvenidos a otra lección en nuestra serie sobre Programación Orientada a Obj
 Vivimos en un mundo en constante evolución, complejo, caótico y lleno de ruido. Sin embargo, la inteligencia humana consigue dar sentido a todo este caos en una búsqueda de la **elegancia** que se esconde detrás de la simetría a través de los **patrones** que identificamos en nuestra realidad.
 
 <p align="center"><img width="50%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/177c3eea-11a3-4274-a1da-4e49bb6a6a56"/></p>
+<p align="center"><img width="50%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/177c3eea-11a3-4274-a1da-4e49bb6a6a56?raw=true"/></p>
+<p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/22304957/285682574-dc2a6d92-fc6a-4466-a001-6578a3d0ffa1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231220T003815Z&X-Amz-Expires=300&X-Amz-Signature=041f08de139a1308b2a977fdb780bf7d9d5584033ae0ba826898b233d73aa802&X-Amz-SignedHeaders=host&actor_id=22304957&key_id=0&repo_id=584591436"/></p>
 
 ### 🗺️ Modelos en Nuestra Vida Diaria
 
