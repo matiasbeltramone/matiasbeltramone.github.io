@@ -28,7 +28,7 @@ Encapsular algo significa ocultar ciertos detalles de implementación, así como
 
 Imaginemos que tenemos una interfaz _FlyingTransport_ con un método `fly(origin, destination, passengers)`. Cuando diseñamos un simulador de transporte aéreo, podemos restringir que la clase _Airport_ trabaje solo con objetos que implementan la interfaz _FlyingTransport_. Esto te asegura que cada objeto pasado al objeto _Airport_, sin importar si es un _Airplane_, un _Helicopter_ o un _DomesticatedGryphon_ (sí, leíste bien, un hipogrifo como esos que aparecen en Harry Potter), o en caso de que no hayas visto la película, es un animal que puede volar en definitiva, cualquiera de estos estará habilitado para aterrizar o despegar de este Aeropuerto.
 
-<p align="center"><img width="50%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/d34f93b6-1cc9-45e0-a579-0b35bc2389e2"/></p>
+<p align="center"><img width="50%" src="../images/encapsulacion-1.png"/></p>
 <p align="center">Gracias DALL-E</p>
 
 ### 🌍 Encapsulación en Nuestro Entorno
