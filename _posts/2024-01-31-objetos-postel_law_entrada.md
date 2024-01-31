@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🧱 Programando con Objetos: La Ley de Postel - Entradas"
+title: "🧱 Programando con Objetos: Entradas"
 tags: [Paradigmas, POO, OOP, Orientación a Objetos, Programación Orientada a Objetos]
 ---
 
