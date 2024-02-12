@@ -10,24 +10,24 @@ creo que es importante hacer un pequeño desvío y hablar sobre los tipos anulab
 Muchas plataformas de lenguajes orientados a objetos, como, por ejemplo, .NET, operan con tipos de valor y tipos de referencia. Los tipos de valor son tipos primitivos como enteros, booleanos, decimales y a veces fechas o UUIDs u algún otro del estilo. Y tienden a ser no anulables por defecto.
 
 Ejemplos en `.NET`:
-#### Booleans
+#### ✅ Booleans 
 <p align="center"><img width="80%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/1c7f4a41-a837-4f71-8ad2-a086bb2c4e63"/></p>
 
-#### Integers
+#### 9️⃣ Integers 
 <p align="center"><img width="80%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/e825175d-cca2-4531-870e-1fd0cb1e4ffd"/></p>
 
 Por otro lado, los tipos de referencia, como las clases u objetos, tienden a ser anulables por defecto. Un ejemplo de esto podría ser el tipo "string", que aunque parezca primitivo, es anulable al menos en el caso de .NET.
 
-#### Strings
+#### 🅰 Strings 
 <p align="center"><img width="80%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/6349241c-5f95-452e-9e4e-9833d1b653d8"/></p>
 
 Y entonces, por ejemplo, llegaron los genéricos en `.NET 2.0`, y con los genéricos se obtuvo este tipo llamado `Nullable<T>`,
 que permitió definir un tipo de valor anulable.
 
-#### Booleans
+#### ✅ Booleans 
 <p align="center"><img width="80%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/065d695d-f01f-465a-b163-eb1322f4f672"/></p>
 
-#### Integers
+#### 9️⃣ Integers 
 <p align="center"><img width="80%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/0b9f280d-ced1-43ab-b4b2-cf5881bf70e4"/></p>
 
 Pero desafortunadamente, no es posible adaptar el otro caso, es decir, un tipo de referencia no anulable al menos en las plataformas existentes y nos queda una tabla para el lenguaje de este estilo.
@@ -39,14 +39,14 @@ pero desafortunadamente no es posible adaptar un tipo de referencia a ser no anu
 tantos cambios radicales que simplemente no es prácticamente útil. Y eso es realmente una pena porque un tipo de referencia que es anulable por defecto es realmente una invención horrible.
 De hecho, el inventor del tipo de referencia anulable admite esto él mismo.
 
-### Null References: The Billion Dollar Mistake - Tony Hoare
+### 💵 Null References: The Billion Dollar Mistake - Tony Hoare 
 
 El inventor del tipo de referencia anulable es Tony Hoare, quien inventó e implementó la referencia anulable cuando estaba diseñando
 `Algol W` en la década de 1960, y simplemente lo implemento porque le pareció sencillo de hacerlo.
 Y posteriormente en una de sus conferencias ha declarado que considera esto su error de mil millones de dólares porque surgen tantos problemas
 de las excepciones de referencia nula a través de varios lenguajes y plataformas que simplemente el costo a pagar en muchos sistemas que generan estos errores es altísimo.
 
-### Problemática 🔎
+### 🔎 Problemática 
 
 Resulta que un tipo de referencia nula es una característica de lenguaje realmente problemática, no porque el nulo en sí mismo sea
 un concepto defectuoso, sino simplemente porque no puedes declarar si un tipo de referencia debería ser anulable o no, básicamente no tenemos elección.
@@ -66,7 +66,7 @@ Esta anulabilidad por defecto puede llevar a excepciones de referencias nulas, e
 de un objeto que es nulo, lo que lleva a errores en tiempo de ejecución que son una fuente común de errores en el software como seguramente a más de uno les haya pasado que salte
 la tan preciada llamada `NullPointerException` de Java, `NullReferenceException` en C# o `TypeErrors` como podría ser en TypeScript o PHP.
 
-### Ejemplos Nullable Types 📋
+### 📋 Ejemplos Nullable Types 
 
 La introducción de tipos de valor anulables en .NET a través de genéricos (mediante la estructura Nullable<T>) fue una mejora significativa,
 ya que permitió a los tipos de valor representar también explícitamente la ausencia de un valor.
@@ -82,7 +82,7 @@ Di el caso de C# en general con la plataforma .NET porque suele tener los concep
 aunque más allá de cada lenguaje o plataforma en particular la idea es que se entiendan los conceptos y como suelen ser en general, siempre existen ciertas condiciones particulares de cada lenguaje
 que me parece interesante tratarlo ya que en general uno suele decir "depende" y es verdad pero esta bueno ejemplificarlo un poco con algunos lenguajes algo diferentes en ciertos comportamientos.
 
-### TypeScript 👨‍💻
+### 👨‍💻 TypeScript 
 
 Sí, la discusión sobre tipos anulables y no anulables también es relevante en TypeScript, recordemos que es un metalenguaje de programación que se basa en JavaScript y añade tipado estático opcional.
 TypeScript fue diseñado para ayudar a los desarrolladores a manejar y prevenir muchos tipos de errores en tiempo de "compilación" o más bien de transpilación,
