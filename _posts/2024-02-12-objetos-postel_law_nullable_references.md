@@ -11,28 +11,28 @@ Muchas plataformas de lenguajes orientados a objetos, como, por ejemplo, .NET, o
 
 Ejemplos en `.NET`:
 #### ✅ Booleans 
-<p align="center"><img width="80%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/1c7f4a41-a837-4f71-8ad2-a086bb2c4e63"/></p>
+<p align="center"><img width="80%" src="../images/null-references/img-1.png"/></p>
 
 #### 9️⃣ Integers 
-<p align="center"><img width="80%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/e825175d-cca2-4531-870e-1fd0cb1e4ffd"/></p>
+<p align="center"><img width="80%" src="../images/null-references/img-2-integers.png"/></p>
 
 Por otro lado, los tipos de referencia, como las clases u objetos, tienden a ser anulables por defecto. Un ejemplo de esto podría ser el tipo "string", que aunque parezca primitivo, es anulable al menos en el caso de .NET.
 
 #### 🅰 Strings 
-<p align="center"><img width="80%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/6349241c-5f95-452e-9e4e-9833d1b653d8"/></p>
+<p align="center"><img width="80%" src="../images/null-references/img-3-strings.png"/></p>
 
 Y entonces, por ejemplo, llegaron los genéricos en `.NET 2.0`, y con los genéricos se obtuvo este tipo llamado `Nullable<T>`,
 que permitió definir un tipo de valor anulable.
 
 #### ✅ Booleans 
-<p align="center"><img width="80%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/065d695d-f01f-465a-b163-eb1322f4f672"/></p>
+<p align="center"><img width="80%" src="../images/null-references/img-4-booleans.png"/></p>
 
 #### 9️⃣ Integers 
-<p align="center"><img width="80%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/0b9f280d-ced1-43ab-b4b2-cf5881bf70e4"/></p>
+<p align="center"><img width="80%" src="../images/null-references/img-5-integers.png"/></p>
 
 Pero desafortunadamente, no es posible adaptar el otro caso, es decir, un tipo de referencia no anulable al menos en las plataformas existentes y nos queda una tabla para el lenguaje de este estilo.
 
-<p align="center"><img width="50%" src="https://github.com/matiasbeltramone/object-oriented-programming/assets/22304957/bc36d177-24f5-439c-9eee-e964a803eff8"/></p>
+<p align="center"><img width="50%" src="../images/null-references/img-6-table.png"/></p>
 
 Anders Hejlsberg, quien es el inventor de `.NET y C#`, en una entrevista dijo que es muy desafortunado que la tabla se vea así de esa manera,
 pero desafortunadamente no es posible adaptar un tipo de referencia a ser no anulable en el sistema de tipos existente porque significaría
