@@ -4,8 +4,8 @@ title: "🧱 Programando con Objetos: Fail Fast"
 tags: [Paradigmas, POO, OOP, Orientación a Objetos, Programación Orientada a Objetos]
 ---
 
-Hasta ahora con lo que aprendimos, en el diseño orientado a objetos, nos dimos cuenta de que hay casos en los que no podemos utilizar el sistema de tipos estáticos para anunciar ciertas precondiciones.
-En su lugar, tendremos que depender de clausulas de guarda en tiempo de ejecución, como este chequeo que vimos en lecciones anteriores de argumento nulo, por ejemplo.
+Hasta ahora con lo que aprendimos, en el diseño orientado a objetos, nos dimos cuenta de que hay casos en los que no podemos utilizar el sistema de tipos estáticos para establecer ciertas precondiciones.
+En su lugar, tendremos que depender de clausulas de guarda en tiempo de ejecución, como este chequeo que vimos en lecciones anteriores sobre el argumento nulo, por ejemplo.
 
 ## 🛡️ Verificación en Tiempo de Ejecución
 **Guardianes del Código: Las Clausulas de Guarda**
@@ -51,20 +51,20 @@ class FileStore {
 }
 ```
 
-Claramente es a efectos educativos ya que no es lo más ideal utilizar existsSync en el caso del entorno de `node.js`
-ya que sería bloqueante la operación aún asi su versión async sería complicada de aplicar ya que en el constructor dificulta esta tarea.
+Claramente es a efectos educativos no discutiremos sobre si esta bueno o no utilizar existsSync en el caso del entorno de `node.js` en un caso de producción 
+ya que sería bloqueante la operación, aún asi su versión async sería complicada de aplicar ya que en el constructor dificulta esta tarea por lo tanto lo dejaremos de esta manera.
 
 ## 💡 Mensajes de Excepción como Documentación
 **Hablando Claro: Los Mensajes de Excepción como Guías**
 
 Así que este es otro ejemplo de fallar rápido, y puedes usar esa excepción para proporcionar un mensaje de excepción amable
-y educado al usuario de la clase, es decir, para otros compañeros developers.
-En este caso, simplemente escribímos "Boo: The working directory '${this.workingDirectory}' does not exist.", pero puedes
+y educado al usuario de la clase, es decir, para otros compañeros desarrolladores.
+En este caso, simplemente escribímos `"Boo: The working directory '${this.workingDirectory}' does not exist."`, pero puedes
 imaginar que esto podría ser algo mucho más detallado, como:
 
-"Intentaste proporcionar una cadena de directorio de trabajo que no representa un directorio de trabajo.
-No es tu culpa, porque no fue posible diseñar la clase FileStore de tal manera que esto sea una precondición tipificada estáticamente.
-Pero por favor, proporciona una ruta válida a un directorio existente."
+>"Intentaste proporcionar un directorio de trabajo que no representa un directorio de trabajo válido o existente.
+>No es tu culpa, porque no fue posible diseñar la clase FileStore de tal manera que esto sea una precondición tipificada estáticamente.
+>Pero por favor, proporciona una ruta válida a un directorio existente."
 
 ```ts
 import * as fs from 'fs';
@@ -88,11 +88,12 @@ class FileStore {
 ```
 
 La verdad es que puedes ser tan detallado como quieras. Lo importante aquí es que si quieres que el usuario,
-en este caso estamos hablando de otros programadores, y quieres o deseas que disfruten o se deleiten con tu código
-o con la clase FileStore en este caso, tienes que tratarlos de tal manera que no se sientan estúpidos.
+en este caso, estamos hablando de otros programadores, y quieres o deseas que disfruten o se deleiten con tu código
+o con la clase FileStore en nuestro caso en particular, tienes que tratarlos de tal manera que no se sientan estúpidos.
+
 A nadie le gusta sentirse estúpido. Así que si escribes mensajes de excepción que les hablen de manera educada y
- de alguna manera les digan que no había forma de que pudieran haber sabido esto de antemano,
-pero ahora tropezaron con este problema en particular, entonces aquí está cómo puedes lidiar con eso.
+de alguna manera les digan que no había forma de que pudieran haber sabido esto de antemano,
+pero aún así se tropezaron con este problema en particular, entonces aquí te dejo la forma de cómo puedes lidiar con eso.
 
 ## 📚 Menos Documentación, Más Claridad
 **Escribe Menos, Expresa Más: El Poder de los Mensajes Detallados**
@@ -100,12 +101,15 @@ pero ahora tropezaron con este problema en particular, entonces aquí está cóm
 Esto además casi funciona como documentación.
 Si de algo no tenemos que tener dudas es que mientras más detallados son los mensajes de excepción, menos documentación
 hay que escribir. Casi podrías decir que la excepción en sí misma es parte de la documentación.
+
 Pero la ventaja aquí es que el mensaje de la excepción vive mucho más cerca del código fuente que cualquier sistema
 de documentación existente, como el tan conocido Swagger o quizás hasta algo más rudimentario y manual.
 
 Mientras más explícito y útil sea ese mensaje de excepción, ya que recordemos de nuevo a quien va dirigido esto,
 concluimos que los mensajes de excepción están dirigidos a otros programadores. No están dirigidos a los usuarios.
-Los usuarios siempre deberían ver algo no técnico.
+
+**Los usuarios siempre deberían ver algo no técnico.**
+
 Así que si volvemos a la Ley de Postel, deberíamos tratar de ser lo más tolerantes posible con la entrada que permitimos que nos llegue.
 Si podemos entender la entrada, la aceptaremos. Pero si no podemos entender la entrada que nos llegó en absoluto,
 deberíamos ser tan explícitos sobre los problemas que tenemos con esa entrada y también explícitos sobre cómo el cliente de nuestras clases
